@@ -1,0 +1,53 @@
+{
+    "name": "htmlgenerator",
+    "displayName": "HTMLGenerator",
+    "description": "HTML generator",
+    "version": "1.0.0",
+    "icon": "icon.png",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/khouajaAdel/vscode-html"
+    },
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets-html-structure.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets-html-tags.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/snippets-form.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/snippets-css-theme-blue.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/snippets-css-theme-cyan.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/snippets-css-theme-green.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/snippets-css-theme-red.code-snippets"
+            },
+            {
+                "language": "css",
+                "path": "./snippets/snippets-css-theme-pink.code-snippets"
+            }
+        ]
+    }
+}

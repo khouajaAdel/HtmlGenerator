@@ -1,0 +1,94 @@
+{
+    "HTML Link":{
+        "prefix":"!hg-link",
+        "body": [
+            "<a href=\"\" target=\"\"></a>",
+        ],
+        "description": "HTML Link"
+    },
+    "HTML HR":{
+        "prefix":"!hg-hr",
+        "body": [
+            "<hr size=\"5px\" width=\"90%\"/>",
+        ],
+        "description": "HTML horizontal bare"
+    },
+    "HTML List":{
+        "prefix":"!hg-list",
+        "body": [
+            "<ul type=\"\">",
+            "    <li></li>",
+            "    <li></li>",
+            "</ul>",            
+        ],
+        "description": "HTML List"
+    },
+    "List Numeric":{
+        "prefix":"!hg-list-num",
+        "body": [
+            "<ol type=\"\">",
+            "   <li></li>",
+            "   <li></li>",
+            "</ol>",
+        ],
+        "description": "HTML Liste Numeric OL"
+    },
+    "table":{
+        "prefix":"!hg-table",
+        "body": [
+            "<table class=\"table\">",
+            "   <tbody>",
+            "       <tr>",
+            "            <td></td>",
+            "            <td></td>",
+            "        </tr>",
+            "   </tbody>",
+            "</table>",
+        ],
+        "description": "HTML Table"
+    },
+    "table header":{
+        "prefix":"!hg-table-header",
+        "body": [
+            "<table class=\"table\">",
+            "   <thead>",
+            "       <tr>",
+            "           <th></th>",
+            "           <th></th>",
+            "       </tr>",
+            "   </thead>",
+            "   <tbody>",
+            "       <tr>",
+            "            <td></td>",
+            "            <td></td>",
+            "        </tr>",
+            "   </tbody>",
+            "</table>",
+        ],
+        "description": "HTML Table with header"
+    },
+    "HTML Menu horizontal":{
+        "prefix":"!hg-menu-h",
+        "body": [
+            "<nav class=\"menu menu-h\">",
+            "    <ul>",
+            "        <li><a href=\"\" target=\"\"></a></li>",
+            "        <li><a href=\"\" target=\"\"></a></li>",
+            "    </ul>",
+            "</nav>"
+        ],
+        "description": "HTML Menu horizontal"
+    },
+    "HTML Menu vertical":{
+        "prefix":"!hg-menu-v",
+        "body": [
+            "<nav class=\"menu menu-v\">",
+            "    <ul>",
+            "        <li><a href=\"\" target=\"\"></a></li>",
+            "        <li><a href=\"\" target=\"\"></a></li>",
+            "    </ul>",
+            "</nav>"
+        ],
+        "description": "HTML Menu vertical"
+    },
+}

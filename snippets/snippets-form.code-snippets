@@ -1,0 +1,129 @@
+{
+    "Form":{
+        "prefix":"!hg-form",
+        "body": [
+            "<form name=\"f\" action=\"\" method=\"post\">",
+            "   ",
+            "</form>"
+        ],
+        "description": "HTML Form"
+    },
+    "Fieldset":{
+        "prefix":"!hg-fieldset",
+        "body": [
+            "<fieldset>",
+            "   <legend></legend>",
+            "   ",
+            "</fieldset>"
+        ],
+        "description": "HTML fieldset"
+    },
+    "Form form-input":{
+        "prefix":"!hg-form-input",
+        "body": [
+            "<div class=\"form-group\">",
+            "    <label class=\"form-label\" for=\"\">:</label>",
+            "        <input type=\"text\" class=\"form-control\" name=\"\" id=\"\" placeholder=\"\" size=\"\" maxlength=\"\">",
+            "</div>",
+        ],
+        "description": "HTML Form input text"
+    },
+    "Form form-password":{
+        "prefix":"!hg-form-password",
+        "body": [
+            "<div class=\"form-group\">",
+            "    <label class=\"form-label\" for=\"\">:</label>",
+            "        <input type=\"password\" class=\"form-control\" name=\"\" id=\"\" placeholder=\"\" size=\"\" maxlength=\"\">",
+            "</div>",
+        ],
+        "description": "HTML Form input Password"
+    },
+    "Form form-textarea":{
+        "prefix":"!hg-form-textarea",
+        "body": [
+            "<div class=\"form-group\">",
+            "    <label class=\"form-label\" for=\"\">:</label>",
+            "    <textarea name=\"\" id=\"\" rows=\"4\" cols=\"50\">",
+            "    </textarea>",
+            "</div>",
+        ],
+        "description": "HTML Form textarea"
+    },
+    "Form form-select":{
+        "prefix":"!hg-form-select",
+        "body": [
+            "<div class=\"form-group\">",
+            "   <label class=\"form-label\" for=\"\">:</label>",
+            "   <select class=\"form-select\" name=\"\" id=\"\" size=\"1\">",
+            "       <option>Select a choice</option>",
+            "       <option value=\"c1\">Choice 1</option>",
+            "       <option value=\"c2\">Choice 2</option>",
+            "   </select>",
+            "</div>",
+        ],
+        "description": "HTML Form select"
+    },
+    "Form form-radio-group":{
+        "prefix":"!hg-form-radio-group",
+        "body": [
+            "<div class=\"form-group\">",
+            "    <label class=\"form-label\" for=\"\">:</label>",
+            "    ",
+            "    <input type=\"radio\" class=\"form-control\" name=\"group\" id=\"group1\" value=\"V1\">",
+            "    <label class=\"choice-label\" for=\"group1\">Choice 1</label>",
+            "    ",
+            "    <input type=\"radio\" class=\"form-control\" name=\"group\" id=\"group2\" value=\"V2\">",
+            "    <label class=\"choice-label\" for=\"group2\">Choice 2</label>",
+            "</div>",
+        ],
+        "description": "HTML Form radio group"
+    },
+    "Form form-checkbox-group":{
+        "prefix":"!hg-form-checkbox-group",
+        "body": [
+            "<div class=\"form-group\">",
+            "    <label class=\"form-label\" for=\"\">:</label>",
+            "    ",
+            "    <input type=\"checkbox\" class=\"form-control\" name=\"group1\" id=\"group1\" value=\"V1\">",
+            "    <label class=\"choice-label\" for=\"group1\">Choice 1</label>",
+            "    ",
+            "    <input type=\"checkbox\" class=\"form-control\" name=\"group2\" id=\"group2\" value=\"V2\">",
+            "    <label class=\"choice-label\" for=\"group2\">Choice 2</label>",
+            "</div>",
+        ],
+        "description": "HTML Form Checkbox group"
+    },
+    "Form form-radio":{
+        "prefix":"!hg-form-radio",
+        "body": [
+            "<input type=\"radio\" class=\"form-control\" name=\"group\" id=\"group1\" value=\"V1\">",
+            "<label class=\"choice-label\" for=\"group1\">Choice 1</label>",
+        ],
+        "description": "HTML Form radio"
+    },
+    "Form form-checkbox":{
+        "prefix":"!hg-form-checkbox",
+        "body": [
+            "<input type=\"checkbox\" class=\"form-control\" name=\"group1\" id=\"group1\" value=\"V1\">",
+            "<label class=\"choice-label\" for=\"group1\">Choice 1</label>",
+        ],
+        "description": "HTML Form checkbox"
+    },
+    "Form form-action":{
+        "prefix":"!hg-form-action",
+        "body": [
+            "<div class=\"form-group form-action\">",
+            "   <input type=\"reset\" class=\"form-control btn btn-reset\" value=\"Reset\">",
+            "   <input type=\"submit\" class=\"form-control btn btn-submit\" value=\"Submit\">",
+            "</div>",
+        ],
+        "description": "HTML Form buttons action"
+    },
+    "Form form-button":{
+        "prefix":"!hg-form-button",
+        "body": [
+            "<input type=\"button\" class=\"form-control btn btn-button\" value=\"Button\">",            
+        ],
+        "description": "HTML Form button"
+    },
+}
