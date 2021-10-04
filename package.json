@@ -6,7 +6,7 @@
     "icon": "icon.png",
     "repository":{
         "type":"git",
-        "url":"https://github.com/khouajaAdel/vscode-html"
+        "url":"https://github.com/khouajaAdel/HtmlGenerator"
     },
     "engines": {
         "vscode": "^1.54.0"
@@ -30,23 +30,23 @@
             },
             {
                 "language": "css",
-                "path": "./snippets/snippets-css-theme-blue.code-snippets"
+                "path": "./snippets/snippets-css-theme-color-blue.code-snippets"
             },
             {
                 "language": "css",
-                "path": "./snippets/snippets-css-theme-cyan.code-snippets"
+                "path": "./snippets/snippets-css-theme-color-cyan.code-snippets"
             },
             {
                 "language": "css",
-                "path": "./snippets/snippets-css-theme-green.code-snippets"
+                "path": "./snippets/snippets-css-theme-color-green.code-snippets"
             },
             {
                 "language": "css",
-                "path": "./snippets/snippets-css-theme-red.code-snippets"
+                "path": "./snippets/snippets-css-theme-color-red.code-snippets"
             },
             {
                 "language": "css",
-                "path": "./snippets/snippets-css-theme-pink.code-snippets"
+                "path": "./snippets/snippets-css-theme-color-pink.code-snippets"
             }
         ]
     }
